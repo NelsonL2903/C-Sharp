@@ -20,6 +20,14 @@ namespace Variables
       Console.WriteLine("Weight: " + weight);
       Console.WriteLine("Spayed: " + spayed);
 
+      // Ask user for fave number
+      Console.Write("Enter your favorite number!: ");
+      string faveNumber = Console.ReadLine();
+
+      // Turn that answer into an int
+      int faveInt = Convert.ToInt32(faveNumber);
+      Console.WriteLine("Your favourite number is " + faveInt);
+
     }
   }
 }
